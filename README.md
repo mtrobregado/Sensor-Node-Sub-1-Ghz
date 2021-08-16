@@ -21,4 +21,10 @@
   - Program bin file using TI SmartRF FLash Programmer v1.8.0.
   - Red led will blink upon power on.
   - With the collector running and blinking red led. Press the LPSTK-CC1352R left button
-    to provision credentials from collector. 
+    to provision credentials from collector. Green led will blink at led if succesfful provision.
+  - Manual provisioning, connect using Bluetooth and using IOS LightBlue App, write 0xDD then 0xAA
+    to Provision Sensor characteristics.  
+	
+  Smart RF Flash Programmer 2 Settings:
+  - Erase pages in range
+  - Program entire source file.		
